@@ -317,3 +317,6 @@ if not hasattr(args, "func"):
     parser.print_help()
     exit(1)
 args.func(args)
+$ virtualenv venv
+$ . venv/bin/activate
+$ pip install -r requirements.txt
