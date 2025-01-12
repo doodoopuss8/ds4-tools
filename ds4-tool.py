@@ -320,3 +320,4 @@ args.func(args)
 $ virtualenv venv
 $ . venv/bin/activate
 $ pip install -r requirements.txt
+$ python3 script.py
